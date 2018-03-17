@@ -1,0 +1,62 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.6em;
+}
+
+.form-control:focus {
+  box-shadow: 0px 0px 1px 1px #98cbff;
+  border: 1px solid #98cbff;
+}
+
+.btn {
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+  color: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  background: #fff;
+}
+
+.btn:focus {
+  box-shadow: 0px 0px 1px 1px #98cbff !important;
+  border: 1px solid #98cbff !important;
+}
+
+.btn:active {
+  color: rgba(0, 0, 0, 0.7) !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.jumbotron-fluid {
+  color: white;
+  height: 100%;
+  font-family: 'Great Vibes', cursive;
+  padding: 0;
+}
+
+.jumbotron-fluid h3 {
+  font-size: 6em;
+}
+
+
+
+.container-fluid {
+  background: url("../assets/carousel-imgs/img-2.jpg");
+  height: 500px;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.2);
+  filter: grayscale(50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 1px black;
+}
