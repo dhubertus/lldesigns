@@ -60,3 +60,35 @@ body {
   align-items: center;
   box-shadow: 0 1px 1px black;
 }
+
+#footer {
+  background: #f8f9fa;
+  height: 150px;
+}
+
+.footer-icon {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#linked-in svg:hover path,
+#linked-in svg.hover path {
+  fill: rgba(0, 0, 0, 0.7);
+}
+
+#instagram svg:hover path,
+#instagram svg.hover path {
+  fill: rgba(0, 0, 0, 0.7);
+}
+
+#facebook svg:hover path,
+#facebook svg.hover path {
+  fill: rgba(0, 0, 0, 0.7);
+}
+
+#gmail svg:hover path,
+#gmail svg.hover path {
+  fill: rgba(0, 0, 0, 0.7);
+}
